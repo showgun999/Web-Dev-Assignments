@@ -1,0 +1,69 @@
+/* Global style rules */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size:18px;
+    font-family: 'PT Sans Narrow', Arial, Tahoma, sans-serif;
+}
+
+section {
+    padding: 3em, 6em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Anton', Tahoma, sans-serif;
+    margin-bottom: 0;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #aaaaaa;
+}
+
+.btn {
+    background-color: red;
+    color: #ffffff;
+    border: 3px solid black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
