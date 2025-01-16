@@ -67,3 +67,32 @@ a:hover {
 .btn:hover {
     background-color: darkred;
 }
+
+
+/* Header and Nav Style Rules */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #232323;
+    padding: .5em;
+}
+
+header img {
+    width: 350px;
+    color: #ffffff;
+}
+
+nav li{
+    display: inline;
+    text-align: right;
+    padding: .5em;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: .8em;
+}
