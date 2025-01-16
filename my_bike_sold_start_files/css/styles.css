@@ -96,3 +96,32 @@ nav li a {
     color: #ffffff;
     font-size: .8em;
 }
+
+
+/* Hero section styles */
+
+.hero {
+    background-image: url(..images/bike_hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+    height: 40vh;
+}
+
+.hero h1 {
+    color: #000000;
+}
+
+.flexhow {
+    flex-basis: 33%;
+}
+
+.how img {
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+.how p {
+    margin-left: .7em;
+}
