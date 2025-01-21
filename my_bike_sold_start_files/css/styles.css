@@ -112,6 +112,9 @@ nav li a {
     color: #000000;
 }
 
+
+/* how it works section */
+
 .flexhow {
     flex-basis: 33%;
 }
@@ -124,4 +127,11 @@ nav li a {
 
 .how p {
     margin-left: .7em;
+    margin-right: .7em;
+    font-size: 1.25em;
+}
+
+.how {
+    margin-top: 0em;
+    padding-top: 1em;
 }
