@@ -98,7 +98,7 @@ nav li a {
 
 /* Hero section styles */
 .hero {
-    background-image: url(..images/bike_hero.jpg);
+    background-image: url("../images/bike_hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3em;
