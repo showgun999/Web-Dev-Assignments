@@ -169,3 +169,27 @@ nav li a {
     font-size: 1em;
     padding-right: 1em;
 }
+
+
+/* testimonial section */
+.test .flex-container {
+    align-items: stretch;
+}
+
+.flextest {
+    flex-basis: 48%;
+    margin: auto;
+    font-size: 1em;
+}
+
+.flextest i {
+    color: #dd0000;
+    float: left;
+    font-size: 4.5em;
+    margin-right: 25px;
+}
+
+.ltbold {
+    font-weight: bold;
+    color: #282828;
+}
