@@ -1,5 +1,4 @@
 /* Global style rules */
-
 body {
     margin: 0;
     padding: 0;
@@ -70,7 +69,6 @@ a:hover {
 
 
 /* Header and Nav Style Rules */
-
 header {
     display: flex;
     flex-direction: row;
@@ -94,12 +92,11 @@ nav li a {
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.5em; /* Written instructions don't say this, but video does */
 }
 
 
 /* Hero section styles */
-
 .hero {
     background-image: url(..images/bike_hero.jpg);
     background-repeat: no-repeat;
@@ -114,7 +111,6 @@ nav li a {
 
 
 /* how it works section */
-
 .flexhow {
     flex-basis: 33%;
 }
@@ -138,7 +134,6 @@ nav li a {
 
 
 /* who we are section */
-
 .who {
     background-color: #adc5e4;
     font-size: 1em;
