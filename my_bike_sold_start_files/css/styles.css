@@ -137,7 +137,7 @@ nav li a {
 .who {
     background-color: #adc5e4;
     font-size: 1em;
-    padding-top: 0em;
+    padding-top: 0.25em;
 }
 
 .who .flex-container {
