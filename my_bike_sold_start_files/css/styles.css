@@ -238,3 +238,124 @@ footer i {
 footer a i:hover {
     color: #aa0000;
 }
+
+
+/* mobile styles */
+@media only screen and (max-width: 767px){
+    body {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 1em;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        margin: auto;
+    }
+
+    .brands {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav img {
+        margin: auto;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: 1em;
+        font-size: 1.1em;
+    }
+
+    .hero {
+        background-image: url(../images/bike_hero_mobile.jpg);
+        text-align: center;
+        padding: 1em 6.5em;
+        height: 130vh;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+    }
+
+    .hero a {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .how p {
+        font-size: 2em;
+    }
+
+    .how img {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 4.5em;
+        font-weight: bolder;
+    }
+
+    .who {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-top: 0em;
+    }
+
+    /*
+    .who h2 {
+
+    }
+    */
+
+    .who p,li{
+        font-size: 1.5em;
+    }
+
+    .test {
+        padding: 2em;
+    }
+
+    .flextest {
+        font-size: 1.5em;
+    }
+
+    .ready h3 {
+        font-size: 2.5em;
+        padding: 0 3em 0 3em;
+    }
+
+    footer p {
+        font-size: 2em;
+        padding: 0em 5em;
+    }
+
+    footer h2 {
+        font-size: 5em;
+        padding: 0 3.5em;
+    }
+    
+    .flexbike {
+        width: 100%;
+    }
+}
