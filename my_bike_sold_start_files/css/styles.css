@@ -359,3 +359,35 @@ footer a i:hover {
         width: 100%;
     }
 }
+
+
+/* styles for inventory */
+.bike{
+    border-bottom: 4px dotted #dd0000;
+    padding: 1.5em 2em;
+}
+
+.bike .flex-container {
+    align-items: flex;
+}
+
+.flexbike {
+    flex-basis: 50%;
+}
+
+.bike table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.bike td,th {
+    border: 1px solid black;
+}
+
+.bike table th {
+    text-align: left;
+}
+
+.bike img {
+    width: 100%;
+}
