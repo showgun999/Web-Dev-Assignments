@@ -401,6 +401,7 @@ footer a i:hover {
 .contactform {
     margin: 3em auto;
     background-color: #e9e9e9;
+    /* border: 1px solid black;   written instructions say to add this! */
     padding-right: 2em;
 }
 
@@ -416,7 +417,7 @@ form {
 }
 
 form input{
-    height: 1.5em;
+    height: 1.5em; /* 3em written */
     padding-left: 1em;
     padding-right: 1em;
     margin: .5em 0em;
