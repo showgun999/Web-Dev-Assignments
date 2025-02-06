@@ -396,6 +396,7 @@ footer a i:hover {
 .contact {
     width: 45%;
     margin: auto;
+    margin-bottom: 1em;
 }
 
 .contactform {
